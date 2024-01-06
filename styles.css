@@ -1,5 +1,8 @@
 body{
 font-size: 18px;
+margin: 48px;
+/* background-color: #1F2937; */
+width: auto;
 }
 
 .header{
@@ -27,43 +30,93 @@ width: auto;
     font-weight: bold;
 }
 .section1{
-    /* background-color: #1F2937; */
-    width: 1000px;
+    background-color: #1F2937;
+    /* width: 1000px; */
     margin: 10px;
     display: flex;
+    color: #E5E7EB;
+    text-align: left;
+    }
+    .button{
+        background-color: #3882F6;
+        font-size: large;
+     }
+     a{
+        color: #E5E7EB;
+     }
+    .box1{
+        display: flex;
+        margin: 0px;
+        padding: 5px;
+        flex-direction: column;
+    }
+    .box2{
+        border: 1px dotted white;
+        height: 250px;
+        width: 380px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-left: 100px;
     }
 
-
 .section2{
+    background-color: #F9FAF8;
+}
+
+.main{
+    display: flex;
+    margin: 10px;
+    justify-content: center;
+    width: auto;
+    }
+.imgtxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items:center;
+    height: 200px;
+    width: 200px;
 
 }
+.h2{
+    text-align: center;
+}
 .section3{
-border: 3px dotted white;
-width: 1000px;
 padding: 10px;
 margin: 10px;
-text-align: center;
-display: flex;
-color: #E5E7EB;
+text-align: justify;
+background-color: #E5E7EB;
+color: #1F2937;
+font-size: 36px;
+font-style: italic;
+
 
 }
 .section4{
+    background-color: #E5E7EB;
+    display: flex;
 }
+    .button2{
+        display: flex;
+        align-self: flex-end;
+        margin-left: 10px;
+    }
 
 .footer{
 display: flex;
-height: 800px;
+height: 20px;
 align-items: end;
 justify-content: center;
-/* background-color: #1F2937; */
+background-color: #1F2937;
 color: #E5E7EB;
 }
 .circle{
 
 }
 img{
-    height: 50px;
-    width: 50px;
+    height: 100px;
+    width: 100px;
 }
 
 .circle {
@@ -72,16 +125,5 @@ border-radius: 60%;
 
 
 }
-.box1{
-    border: 1px solid white;
-    /* height: 500px;
-    width: 500px; */
-    /* margin: 10px; */
-    padding: 5px;
-}
-.box2{
-    border: 1px dotted white;
-    height: 500px;
-    width: 800px;
-}
+
 
